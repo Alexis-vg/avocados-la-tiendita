@@ -1,0 +1,29 @@
+@import "tailwindcss/dist/base.css";
+@import "tailwindcss/dist/components.css";
+@import "tailwindcss/dist/utilities.css";
+.muy-grande {
+  font-size: 1rem;
+}
+.main-app-avocados {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+.avocado-card {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 4px;
+  padding: 10px;
+}
+.avocado-card:hover {
+  background-color: rgb(84, 112, 165);
+}
+.avocado-card img {
+  margin-left: 15px;
+  height: 75px;
+  border-radius: 50px;
+}
+.avocado-card__price {
+  margin-left: 15px;
+}
